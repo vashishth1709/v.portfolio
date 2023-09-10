@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vashishth Jha Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(56, 171, 175);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(13, 125, 125);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+        nav ul li{
+            text-decoration:none ;
+            color: white;
+        }
+        nav ul li:hover{
+            color: rgb(100 39 137);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+
+        .leftSection {
+           
+            margin-top: 5%;
+            margin-left: 9%;
+            font-size: 3rem;
+            width: 107%;
+          
+        }
+
+        .img {
+            margin-left: 17%;
+            width: 55%;
+            height: auto;
+        }
+        .leftSection span{
+            color:rgb(100 39 137);
+           
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+           
+        }
+         main hr{
+            border: 0;
+            background: rgb(100 39 137);
+            height: 1px;
+            margin: 60px 84px;
+        }
+        .Leftsection h1{
+            font-size: 3rem;
+        }
+        .Leftsection h2{
+            margin: auto;
+        }
+        .Leftsection span{
+            color:rgb(100 39 137);
+        }
+        .Leftsection div{
+          /*  margin-right: 59%;*/
+             font-size: 1.5rem;
+             width: 71%;
+             margin-right: 32%;
+
+        }
+        .Myimgae{
+            margin-top: -27%;
+            float:right;
+            width: 19%;
+            height: auto;
+        }
+        .footer p{
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .footer button{
+           background-color:rgb(100 39 137) ;
+            margin-left: 46%;
+            margin-top: 1%;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 13px 30px;
+            border-radius: 30px;
+            transition: .4s;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Vashishth's Porftfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi! My name is <span>Vashishth Jha</span> 
+                <div>And I am a passionate </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="devpro.png" class=img>
+            </div>
+        </section>
+<hr>        
+        <section class="secondSection">
+          <div class="Leftsection">  
+            <h1>About Me</h1>
+               <h2>Developer<span> & Designer</span></h2>
+              <div> I'm currently a student pursuing BCA from Invertis University,Being a fresher i'm currently working on an Intership by Bharat Intern.I have developed my skills in Python Programming and Web Development.I can provide clean code and pixel perfect design.A reponsive design can be accessible to all the users, regardless of their device.</div>
+             </div>
+             
+          <div class="Rightsection">
+            <div> <img src="Vashishth.jpg" class="Myimgae"></div>
+           
+          </div>  
+        </section>
+<hr>
+        <section class="footer">
+            <p>Let me get you a beautiful website</p>
+            <button>Hire Me</button>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', ' Web Designer','Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
